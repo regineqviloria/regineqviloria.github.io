@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001001111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000100111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
   <layouts>
-    <layout name="npnxnanbsnfns00001001111" font="Lato" controllayout="npnxnanbsnfns00001001111" colorscheme="pxabnsnfns00001001111" string_table="pxabnsnfns00001001111" />
-    <layout name="pxabnsnfns00001001111" font="Lato" controllayout="pxabnsnfns00001001111" colorscheme="pxabnsnfns00001001111" string_table="pxabnsnfns00001001111" />
-    <layout name="npxnabnsnfns00001001111" font="Lato" controllayout="npxnabnsnfns00001001111" colorscheme="pxabnsnfns00001001111" string_table="pxabnsnfns00001001111" />
-    <layout name="npnxnanbnsnfns00001001111" font="Lato" controllayout="npnxnanbnsnfns00001001111" colorscheme="pxabnsnfns00001001111" string_table="pxabnsnfns00001001111" />
-    <layout name="pxabnsnfns00001001110" font="Lato" controllayout="pxabnsnfns00001001110" colorscheme="pxabnsnfns00001001111" string_table="pxabnsnfns00001001111" />
+    <layout name="npnxnanbsnfns00000100111" font="Open Sans" controllayout="npnxnanbsnfns00000100111" colorscheme="npnxnanbnsnfns00000100111" string_table="npnxnanbnsnfns00000100111" />
+    <layout name="pxabnsnfns00000100111" font="Open Sans" controllayout="pxabnsnfns00000100111" colorscheme="npnxnanbnsnfns00000100111" string_table="npnxnanbnsnfns00000100111" />
+    <layout name="npxnabnsnfns00000100111" font="Open Sans" controllayout="npxnabnsnfns00000100111" colorscheme="npnxnanbnsnfns00000100111" string_table="npnxnanbnsnfns00000100111" />
+    <layout name="npnxnanbnsnfns00000100111" font="Open Sans" controllayout="npnxnanbnsnfns00000100111" colorscheme="npnxnanbnsnfns00000100111" string_table="npnxnanbnsnfns00000100111" />
+    <layout name="pxabnsnfns00000100110" font="Open Sans" controllayout="pxabnsnfns00000100110" colorscheme="npnxnanbnsnfns00000100111" string_table="npnxnanbnsnfns00000100111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,13 +13,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Roche &amp; Reg Wedding" />
+              <option name="title_text" value="EmpowHER - Problem Solving" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -27,10 +27,10 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
-              <listitem name="transcript" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
@@ -69,7 +69,7 @@
           <option name="search" value="true" />
           <option name="closed_captions" value="true">
             <options>
-              <option name="font" value="Lato" />
+              <option name="font" value="Open Sans" />
             </options>
           </option>
         </options>
@@ -81,15 +81,15 @@
       </optiongroup>
       <optiongroup name="buttonoptions">
         <options>
-          <option name="next" value="icon" />
-          <option name="previous" value="icon" />
-          <option name="submit" value="icon" />
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
         </options>
       </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001001111">
+    <control_layout name="npnxnanbsnfns00000100111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -102,17 +102,17 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001001111">
+    <control_layout name="pxabnsnfns00000100111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -125,17 +125,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001001111">
+    <control_layout name="npxnabnsnfns00000100111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -148,17 +148,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001001111">
+    <control_layout name="npnxnanbnsnfns00000100111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -171,17 +171,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001001110">
+    <control_layout name="pxabnsnfns00000100110">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -194,10 +194,10 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="true" />
         </controls>
@@ -206,7 +206,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001001111">
+    <colorscheme name="npnxnanbnsnfns00000100111">
       <color_group name="HTML">
         <group_colors>
           <color name="htmlpage_bg_color">
@@ -1073,7 +1073,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4F81BD" alpha="100" stop="0" />
+                <color rgb="0x81BDA5" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1205,7 +1205,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001001111">
+    <string_table name="npnxnanbnsnfns00000100111">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1255,7 +1255,7 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Lato">
+    <font name="Open Sans">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1266,26 +1266,33 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.60Waav8rJHG" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5hjl5SOGK4G" displaytext="EmpowHER: Problem Solving" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.60Waav8rJHG.68uHgsdYiEj" displaytext="Roche and Reg Wedding" expand="false" type="slide" />
-            <slidelink slideid="_player.60Waav8rJHG.6MKIkpGSPBi" displaytext="Wedding Preps" expand="false" type="slide" />
-            <slidelink slideid="_player.60Waav8rJHG.63JSvJGYpfO" displaytext="Wedding Preps Desc" expand="false" type="slide" />
-            <slidelink slideid="_player.60Waav8rJHG.6b2YMbfmq8o" displaytext="Roche and Reg Wedding" expand="false" type="slide" />
-            <slidelink slideid="_player.60Waav8rJHG.6RsjMWfxtc5" displaytext="Wedding Day" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5mywHUUVyak" displaytext="Title: Problem Solving" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6oO4MbOLcJN" displaytext="Welcome to the training" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6bj5cy0Eqs7" displaytext="Main Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5cDz6fWTG6f" displaytext="Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6ZffoURbK1Y" displaytext="Case Study Guidelines" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6JUnBwAZfuL" displaytext="Case Study Part 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6jiW1DGdOiu" displaytext="Case Study Part 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5j2wE4XL6NV" displaytext="Case Study Part 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5m0cQZCTQx9" displaytext="Discussion Questions 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.60x89pfXJay" displaytext="Discussion Questions 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5z1L4TA4lJj" displaytext="Discussion Questions 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5k0r8cgLflQ" displaytext="Feedback" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6rpKYjFsgVw" displaytext="The Problem Solving Method" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6WwkVoUq9ek" displaytext="Step 1: Diagnosing the Problem" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5aIK4wPoelL" displaytext="Symptoms and Root Cause" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5sq8fyrgfj8" displaytext="Step 1: Diagnosing the Problem" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5mBm4cLfvlI" displaytext="Step 1: Diagnosing the Problem" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6L9vFJ9xLNm" displaytext="Activity: Root cause or symptom?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6VufIPuFJ4a" displaytext="End Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
-    <search>
-      <slidetext slideid="60Waav8rJHG.68uHgsdYiEj" slidebank="false" type="slide">       roche and reg wedding two imperfect souls joined together in god’s perfect love. catch a glimpse of the momentous and beautiful affair. but first, the proposal… see more see more see more see more see more see more</slidetext>
-      <slidetext slideid="60Waav8rJHG.6MKIkpGSPBi" slidebank="false" type="slide">roche and reg wedding and that led us to an awesome adventure which started with our wedding preps…</slidetext>
-      <slidetext slideid="60Waav8rJHG.63JSvJGYpfO" slidebank="false" type="slide"> the months before the wedding are the most exciting yet hectic times but the best times are when we acted as a team and enjoyed each other’s company. preparation  </slidetext>
-      <slidetext slideid="60Waav8rJHG.6b2YMbfmq8o" slidebank="false" type="slide">       roche and reg wedding a year of preparation finally led to the most-awaited day. it was not perfect since there were details that were not the same as we pictured but the day was full of love…</slidetext>
-      <slidetext slideid="60Waav8rJHG.6RsjMWfxtc5" slidebank="false" type="slide">     wedding day pre-wedding     pictorial preparation  ceremony post wedding     pictorial  reception</slidetext>
-    </search>
   </nav_data>
-  <resource_data description="" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#B4B4B4'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
