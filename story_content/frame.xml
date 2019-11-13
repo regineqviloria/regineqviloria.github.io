@@ -6,7 +6,9 @@
     <layout name="npxnabnsnfns00000000111" font="Open Sans" controllayout="npxnabnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
     <layout name="npnxnanbnsnfns00000000111" font="Open Sans" controllayout="npnxnanbnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
     <layout name="pxabnsnfns00000000110" font="Open Sans" controllayout="pxabnsnfns00000000110" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="pnxanbnsnfns00000000111" font="Open Sans" controllayout="pnxanbnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
     <layout name="pnxanbsnfns00000000111" font="Open Sans" controllayout="pnxanbsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="pxabsnfns00000000111" font="Open Sans" controllayout="pxabsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +16,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="EmpowHER - Problem Solving" />
+              <option name="title_text" value="EmpowHER Series - Problem Solving" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -36,7 +38,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -205,6 +207,29 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="pnxanbnsnfns00000000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
     <control_layout name="pnxanbsnfns00000000111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
@@ -215,6 +240,29 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabsnfns00000000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1297,6 +1345,9 @@
             <slidelink slideid="_player.5hjl5SOGK4G.6bj5cy0Eqs7" displaytext="Main Menu" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.5cDz6fWTG6f" displaytext="Objectives" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.6ZffoURbK1Y" displaytext="Case Study Guidelines" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6j9G5U2BFBv" displaytext="Action Items" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6HMv4rD8uqI" displaytext="Action Items" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5bbizBXJ3yC" displaytext="Action Items" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.6JUnBwAZfuL" displaytext="Case Study Part 1" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.6jiW1DGdOiu" displaytext="Case Study Part 2" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.5j2wE4XL6NV" displaytext="Case Study Part 3" expand="false" type="slide" />
@@ -1310,7 +1361,29 @@
             <slidelink slideid="_player.5hjl5SOGK4G.5sq8fyrgfj8" displaytext="Step 1: Diagnosing the Problem" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.5mBm4cLfvlI" displaytext="Step 1: Diagnosing the Problem" expand="false" type="slide" />
             <slidelink slideid="_player.5hjl5SOGK4G.6L9vFJ9xLNm" displaytext="Activity: Root cause or symptom?" expand="false" type="slide" />
-            <slidelink slideid="_player.5hjl5SOGK4G.6VufIPuFJ4a" displaytext="End Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6VufIPuFJ4a" displaytext="Congratulations" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.687mFXWcmFx" displaytext="End Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6IfHjwurjDG" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5pNlvYYKVd7" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5pnf6firdJJ" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.63qeO84YwaE" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.673U6emADFa" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.60azuLhjLMR" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5ksVRT7wfd1" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6cMYhbD9Dk3" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5rol53U1eP6" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5v7007rlZmt" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5boEKXNXBiN" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.65oUub5LxJ3" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6AWyOaUQSQh" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5j5nANEuZWe" displaytext="Step 2: Designing and Comparing Solutions" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6Sbw2T1aKLo" displaytext="Step 3: Implementing a Solution" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5aiVvucwHvg" displaytext="Step 3: Implementing a Solution" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6jKobxNmldT" displaytext="Step 3: Implementing a Solution" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6ecBnzgDcdn" displaytext="Step 3: Implementing a Solution" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.5xZc317IThD" displaytext="Step 3: Implementing a Solution" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6SChSCq4PSr" displaytext="Step 3: Implementing a Solution" expand="false" type="slide" />
+            <slidelink slideid="_player.5hjl5SOGK4G.6MtTAeGgeFr" displaytext="Feedback" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
